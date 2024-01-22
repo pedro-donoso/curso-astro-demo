@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Header from '../components/Header.astro'
+
 ---
 
 <Layout title="SpaceX Launches">
@@ -11,12 +12,13 @@ import Header from '../components/Header.astro'
 
 <style>
 	main {
-		margin: auto;
-		padding: auto;
+		margin: 1rem;
+		padding: 1rem;
 		width: 100%;
-		text-align: center;
+		max-width: calc(100% - 2rem);
 		color: yellow;
 		font-size: 20px;
+		line-height: 1.6;
 		border: 1px solid red;
 	}
 </style>
